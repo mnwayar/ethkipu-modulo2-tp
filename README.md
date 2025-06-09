@@ -79,7 +79,7 @@ Emitted when the auction ends and winner is declared.
 
 ## Functions
 
-- **`constructor()`**
+- **`constructor()`**  
   Sets the deployer as the owner, the minimum bid price to 1 and sets auction end time to current time + 24 hours.
 
 - **`placeBid()`**  
@@ -90,7 +90,7 @@ Emitted when the auction ends and winner is declared.
 
 - **`withdrawPartial()`**  
   Returns the amount of old bids to bidder.
-
+ 
   - Only callable while the auction is active.
 
 - **`finalizeAuction()`**  
