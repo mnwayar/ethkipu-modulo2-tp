@@ -79,30 +79,6 @@ Emitted when the auction ends and winner is declared.
 
 ## Functions
 
-# Auction Smart Contract
-
-## Description
-
-This contract implements an auction where users can bid with increasing offers
-  - Implements required events and partial refunds. 
-  - Winner and Bids are public so they have it's defaults getters
-
-## Events
-
-- **`NewBid (bidder, amount, timestamp)`**
-Emitted when new bid is placed
-  - `bidder` — address of bidder
-  - `amount` —  amount of the bid
-  - `timestamp` —  time when bid is placed
-
-- **`AuctionEnded (winner, winningBid, timestamp)`**
-Emitted when the auction is finished
-  - `winner` — address of winner
-  - `winningBid` —  amount of the winner bid
-  - `timestamp` —  time when bid is placed
-
-## Functions
-
 - **`constructor()`**
   Sets the deployer as the owner, the minimum bid price to 1 and sets auction end time to current time + 24 hours.
 
